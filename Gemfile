@@ -30,6 +30,9 @@ gem 'devise', '~> 3.4.0'
 gem 'redcarpet'
 gem 'rouge'
 
+# Middleware
+gem 'unicorn'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
