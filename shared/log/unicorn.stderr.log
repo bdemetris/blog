@@ -7,3 +7,70 @@ I, [2015-12-19T04:31:55.583395 #14193]  INFO -- : worker=0 spawned pid=14193
 I, [2015-12-19T04:31:55.583516 #14193]  INFO -- : worker=0 ready
 I, [2015-12-19T04:31:55.584146 #14196]  INFO -- : worker=1 spawned pid=14196
 I, [2015-12-19T04:31:55.584257 #14196]  INFO -- : worker=1 ready
+I, [2015-12-19T04:59:23.575598 #14348]  INFO -- : executing ["/home/ubuntu/.rvm/gems/ruby-2.0.0-p643/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/ubuntu/blog/shared/sockets/unicorn.sock>}] (in /home/ubuntu/blog)
+I, [2015-12-19T04:59:23.575718 #14348]  INFO -- : forked child re-executing...
+I, [2015-12-19T04:59:23.820896 #14348]  INFO -- : inherited addr=/home/ubuntu/blog/shared/sockets/unicorn.sock fd=11
+I, [2015-12-19T04:59:23.821083 #14348]  INFO -- : Refreshing Gem list
+I, [2015-12-19T04:59:25.350590 #14348]  INFO -- : worker=0 spawning...
+I, [2015-12-19T04:59:25.351703 #14348]  INFO -- : worker=1 spawning...
+I, [2015-12-19T04:59:25.352329 #14348]  INFO -- : master process ready
+I, [2015-12-19T04:59:25.353096 #14352]  INFO -- : worker=0 spawned pid=14352
+I, [2015-12-19T04:59:25.353246 #14352]  INFO -- : worker=0 ready
+I, [2015-12-19T04:59:25.356578 #14354]  INFO -- : worker=1 spawned pid=14354
+I, [2015-12-19T04:59:25.356692 #14354]  INFO -- : worker=1 ready
+I, [2015-12-19T20:50:17.555036 #14190]  INFO -- : reaped #<Process::Status: pid 14193 exit 0> worker=0
+I, [2015-12-19T20:50:17.556370 #14190]  INFO -- : reaped #<Process::Status: pid 14196 exit 0> worker=1
+I, [2015-12-19T20:50:17.556423 #14190]  INFO -- : master complete
+I, [2015-12-19T20:50:17.558748 #14348]  INFO -- : reaped #<Process::Status: pid 14352 exit 0> worker=0
+I, [2015-12-19T20:50:17.558839 #14348]  INFO -- : reaped #<Process::Status: pid 14354 exit 0> worker=1
+I, [2015-12-19T20:50:17.558896 #14348]  INFO -- : master complete
+I, [2015-12-19T20:51:09.563025 #1133]  INFO -- : Refreshing Gem list
+I, [2015-12-19T20:51:12.236975 #1133]  INFO -- : unlinking existing socket=/home/ubuntu/blog/shared/sockets/unicorn.sock
+I, [2015-12-19T20:51:12.237149 #1133]  INFO -- : listening on addr=/home/ubuntu/blog/shared/sockets/unicorn.sock fd=11
+I, [2015-12-19T20:51:12.237240 #1133]  INFO -- : worker=0 spawning...
+I, [2015-12-19T20:51:12.238119 #1133]  INFO -- : worker=1 spawning...
+I, [2015-12-19T20:51:12.238741 #1133]  INFO -- : master process ready
+I, [2015-12-19T20:51:12.245027 #1136]  INFO -- : worker=0 spawned pid=1136
+I, [2015-12-19T20:51:12.245167 #1136]  INFO -- : worker=0 ready
+I, [2015-12-19T20:51:12.245740 #1138]  INFO -- : worker=1 spawned pid=1138
+I, [2015-12-19T20:51:12.245872 #1138]  INFO -- : worker=1 ready
+I, [2015-12-19T22:24:42.313704 #27862]  INFO -- : executing ["/home/ubuntu/.rvm/gems/ruby-2.0.0-p643/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/ubuntu/blog/shared/sockets/unicorn.sock>}] (in /home/ubuntu/blog)
+I, [2015-12-19T22:24:42.313831 #27862]  INFO -- : forked child re-executing...
+I, [2015-12-19T22:24:42.564640 #27862]  INFO -- : inherited addr=/home/ubuntu/blog/shared/sockets/unicorn.sock fd=11
+I, [2015-12-19T22:24:42.564849 #27862]  INFO -- : Refreshing Gem list
+I, [2015-12-19T22:24:44.177453 #27862]  INFO -- : worker=0 spawning...
+I, [2015-12-19T22:24:44.178272 #27862]  INFO -- : worker=1 spawning...
+I, [2015-12-19T22:24:44.178906 #27862]  INFO -- : master process ready
+I, [2015-12-19T22:24:44.179662 #27866]  INFO -- : worker=0 spawned pid=27866
+I, [2015-12-19T22:24:44.179789 #27866]  INFO -- : worker=0 ready
+I, [2015-12-19T22:24:44.180385 #27868]  INFO -- : worker=1 spawned pid=27868
+I, [2015-12-19T22:24:44.180520 #27868]  INFO -- : worker=1 ready
+I, [2015-12-19T22:25:21.739902 #1133]  INFO -- : reaped #<Process::Status: pid 1136 exit 0> worker=0
+I, [2015-12-19T22:25:21.740094 #1133]  INFO -- : reaped #<Process::Status: pid 1138 exit 0> worker=1
+I, [2015-12-19T22:25:21.740141 #1133]  INFO -- : master complete
+I, [2015-12-19T22:25:21.857683 #27862]  INFO -- : reaped #<Process::Status: pid 27866 exit 0> worker=0
+I, [2015-12-19T22:25:21.857812 #27862]  INFO -- : reaped #<Process::Status: pid 27868 exit 0> worker=1
+I, [2015-12-19T22:25:21.857878 #27862]  INFO -- : master complete
+I, [2015-12-19T22:26:08.298141 #1122]  INFO -- : Refreshing Gem list
+I, [2015-12-19T22:26:10.911704 #1122]  INFO -- : unlinking existing socket=/home/ubuntu/blog/shared/sockets/unicorn.sock
+I, [2015-12-19T22:26:10.911895 #1122]  INFO -- : listening on addr=/home/ubuntu/blog/shared/sockets/unicorn.sock fd=11
+I, [2015-12-19T22:26:10.912046 #1122]  INFO -- : worker=0 spawning...
+I, [2015-12-19T22:26:10.912969 #1122]  INFO -- : worker=1 spawning...
+I, [2015-12-19T22:26:10.913592 #1122]  INFO -- : master process ready
+I, [2015-12-19T22:26:10.920579 #1125]  INFO -- : worker=0 spawned pid=1125
+I, [2015-12-19T22:26:10.920722 #1125]  INFO -- : worker=0 ready
+I, [2015-12-19T22:26:10.921381 #1127]  INFO -- : worker=1 spawned pid=1127
+I, [2015-12-19T22:26:10.921495 #1127]  INFO -- : worker=1 ready
+I, [2015-12-19T22:57:38.914334 #1122]  INFO -- : reaped #<Process::Status: pid 1125 exit 0> worker=0
+I, [2015-12-19T22:57:38.914433 #1122]  INFO -- : reaped #<Process::Status: pid 1127 exit 0> worker=1
+I, [2015-12-19T22:57:38.914510 #1122]  INFO -- : master complete
+I, [2015-12-19T22:58:21.420056 #1117]  INFO -- : Refreshing Gem list
+I, [2015-12-19T22:58:24.024599 #1117]  INFO -- : unlinking existing socket=/home/ubuntu/blog/shared/sockets/unicorn.sock
+I, [2015-12-19T22:58:24.024781 #1117]  INFO -- : listening on addr=/home/ubuntu/blog/shared/sockets/unicorn.sock fd=11
+I, [2015-12-19T22:58:24.024890 #1117]  INFO -- : worker=0 spawning...
+I, [2015-12-19T22:58:24.025790 #1117]  INFO -- : worker=1 spawning...
+I, [2015-12-19T22:58:24.026418 #1117]  INFO -- : master process ready
+I, [2015-12-19T22:58:24.033074 #1121]  INFO -- : worker=0 spawned pid=1121
+I, [2015-12-19T22:58:24.033213 #1121]  INFO -- : worker=0 ready
+I, [2015-12-19T22:58:24.033862 #1123]  INFO -- : worker=1 spawned pid=1123
+I, [2015-12-19T22:58:24.033990 #1123]  INFO -- : worker=1 ready
