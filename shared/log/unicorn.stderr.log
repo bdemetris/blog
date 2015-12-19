@@ -1,0 +1,9 @@
+I, [2015-12-19T04:31:54.028724 #14190]  INFO -- : Refreshing Gem list
+I, [2015-12-19T04:31:55.577255 #14190]  INFO -- : listening on addr=/home/ubuntu/blog/shared/sockets/unicorn.sock fd=11
+I, [2015-12-19T04:31:55.577412 #14190]  INFO -- : worker=0 spawning...
+I, [2015-12-19T04:31:55.578605 #14190]  INFO -- : worker=1 spawning...
+I, [2015-12-19T04:31:55.579702 #14190]  INFO -- : master process ready
+I, [2015-12-19T04:31:55.583395 #14193]  INFO -- : worker=0 spawned pid=14193
+I, [2015-12-19T04:31:55.583516 #14193]  INFO -- : worker=0 ready
+I, [2015-12-19T04:31:55.584146 #14196]  INFO -- : worker=1 spawned pid=14196
+I, [2015-12-19T04:31:55.584257 #14196]  INFO -- : worker=1 ready
