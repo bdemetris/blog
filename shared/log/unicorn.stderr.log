@@ -74,3 +74,87 @@ I, [2015-12-19T22:58:24.033074 #1121]  INFO -- : worker=0 spawned pid=1121
 I, [2015-12-19T22:58:24.033213 #1121]  INFO -- : worker=0 ready
 I, [2015-12-19T22:58:24.033862 #1123]  INFO -- : worker=1 spawned pid=1123
 I, [2015-12-19T22:58:24.033990 #1123]  INFO -- : worker=1 ready
+I, [2015-12-21T02:32:30.531068 #2851]  INFO -- : executing ["/home/ubuntu/.rvm/gems/ruby-2.0.0-p643/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/ubuntu/blog/shared/sockets/unicorn.sock>}] (in /home/ubuntu/blog)
+I, [2015-12-21T02:32:30.531296 #2851]  INFO -- : forked child re-executing...
+/home/ubuntu/.rvm/gems/ruby-2.0.0-p643/gems/bundler-1.11.2/lib/bundler/spec_set.rb:94:in `block in materialize': Could not find acts-as-taggable-on-3.5.0 in any of the sources (Bundler::GemNotFound)
+	from /home/ubuntu/.rvm/gems/ruby-2.0.0-p643/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `map!'
+	from /home/ubuntu/.rvm/gems/ruby-2.0.0-p643/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `materialize'
+	from /home/ubuntu/.rvm/gems/ruby-2.0.0-p643/gems/bundler-1.11.2/lib/bundler/definition.rb:137:in `specs'
+	from /home/ubuntu/.rvm/gems/ruby-2.0.0-p643/gems/bundler-1.11.2/lib/bundler/definition.rb:182:in `specs_for'
+	from /home/ubuntu/.rvm/gems/ruby-2.0.0-p643/gems/bundler-1.11.2/lib/bundler/definition.rb:171:in `requested_specs'
+	from /home/ubuntu/.rvm/gems/ruby-2.0.0-p643/gems/bundler-1.11.2/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/ubuntu/.rvm/gems/ruby-2.0.0-p643/gems/bundler-1.11.2/lib/bundler/runtime.rb:13:in `setup'
+	from /home/ubuntu/.rvm/gems/ruby-2.0.0-p643/gems/bundler-1.11.2/lib/bundler.rb:92:in `setup'
+	from /home/ubuntu/.rvm/gems/ruby-2.0.0-p643/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/ubuntu/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/ubuntu/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+E, [2015-12-21T02:32:30.696912 #1117] ERROR -- : reaped #<Process::Status: pid 2851 exit 1> exec()-ed
+I, [2015-12-21T02:32:42.503345 #1117]  INFO -- : reaped #<Process::Status: pid 1121 exit 0> worker=0
+I, [2015-12-21T02:32:42.503488 #1117]  INFO -- : reaped #<Process::Status: pid 1123 exit 0> worker=1
+I, [2015-12-21T02:32:42.503799 #1117]  INFO -- : master complete
+I, [2015-12-21T02:38:17.218630 #1118]  INFO -- : Refreshing Gem list
+I, [2015-12-21T02:38:19.858386 #1118]  INFO -- : unlinking existing socket=/home/ubuntu/blog/shared/sockets/unicorn.sock
+I, [2015-12-21T02:38:19.859031 #1118]  INFO -- : listening on addr=/home/ubuntu/blog/shared/sockets/unicorn.sock fd=11
+I, [2015-12-21T02:38:19.859184 #1118]  INFO -- : worker=0 spawning...
+I, [2015-12-21T02:38:19.860001 #1118]  INFO -- : worker=1 spawning...
+I, [2015-12-21T02:38:19.860672 #1118]  INFO -- : master process ready
+I, [2015-12-21T02:38:19.867552 #1122]  INFO -- : worker=0 spawned pid=1122
+I, [2015-12-21T02:38:19.867697 #1122]  INFO -- : worker=0 ready
+I, [2015-12-21T02:38:19.868278 #1124]  INFO -- : worker=1 spawned pid=1124
+I, [2015-12-21T02:38:19.868396 #1124]  INFO -- : worker=1 ready
+I, [2015-12-21T02:40:53.439286 #1359]  INFO -- : executing ["/home/ubuntu/.rvm/gems/ruby-2.0.0-p643/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/ubuntu/blog/shared/sockets/unicorn.sock>}] (in /home/ubuntu/blog)
+I, [2015-12-21T02:40:53.439452 #1359]  INFO -- : forked child re-executing...
+I, [2015-12-21T02:40:53.680162 #1359]  INFO -- : inherited addr=/home/ubuntu/blog/shared/sockets/unicorn.sock fd=11
+I, [2015-12-21T02:40:53.680371 #1359]  INFO -- : Refreshing Gem list
+I, [2015-12-21T02:40:55.262088 #1359]  INFO -- : worker=0 spawning...
+I, [2015-12-21T02:40:55.262995 #1359]  INFO -- : worker=1 spawning...
+I, [2015-12-21T02:40:55.263815 #1359]  INFO -- : master process ready
+I, [2015-12-21T02:40:55.264538 #1363]  INFO -- : worker=0 spawned pid=1363
+I, [2015-12-21T02:40:55.264667 #1363]  INFO -- : worker=0 ready
+I, [2015-12-21T02:40:55.265365 #1365]  INFO -- : worker=1 spawned pid=1365
+I, [2015-12-21T02:40:55.265491 #1365]  INFO -- : worker=1 ready
+E, [2015-12-21T02:41:49.054789 #1359] ERROR -- : old PID:1118 running with existing pid=/home/ubuntu/blog/shared/pids/unicorn.pid.oldbin, refusing rexec
+I, [2015-12-21T02:42:23.585160 #1118]  INFO -- : reaped #<Process::Status: pid 1122 exit 0> worker=0
+I, [2015-12-21T02:42:23.585295 #1118]  INFO -- : reaped #<Process::Status: pid 1124 exit 0> worker=1
+I, [2015-12-21T02:42:23.585347 #1118]  INFO -- : master complete
+I, [2015-12-21T02:42:23.730762 #1359]  INFO -- : reaped #<Process::Status: pid 1363 exit 0> worker=0
+I, [2015-12-21T02:42:23.730868 #1359]  INFO -- : reaped #<Process::Status: pid 1365 exit 0> worker=1
+I, [2015-12-21T02:42:23.730953 #1359]  INFO -- : master complete
+I, [2015-12-21T02:43:06.255821 #1120]  INFO -- : Refreshing Gem list
+I, [2015-12-21T02:43:08.829239 #1120]  INFO -- : unlinking existing socket=/home/ubuntu/blog/shared/sockets/unicorn.sock
+I, [2015-12-21T02:43:08.829825 #1120]  INFO -- : listening on addr=/home/ubuntu/blog/shared/sockets/unicorn.sock fd=11
+I, [2015-12-21T02:43:08.829916 #1120]  INFO -- : worker=0 spawning...
+I, [2015-12-21T02:43:08.830834 #1120]  INFO -- : worker=1 spawning...
+I, [2015-12-21T02:43:08.831480 #1120]  INFO -- : master process ready
+I, [2015-12-21T02:43:08.837857 #1250]  INFO -- : worker=0 spawned pid=1250
+I, [2015-12-21T02:43:08.837975 #1250]  INFO -- : worker=0 ready
+I, [2015-12-21T02:43:08.838631 #1252]  INFO -- : worker=1 spawned pid=1252
+I, [2015-12-21T02:43:08.838752 #1252]  INFO -- : worker=1 ready
+I, [2015-12-21T02:45:10.233820 #1386]  INFO -- : executing ["/home/ubuntu/.rvm/gems/ruby-2.0.0-p643/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/ubuntu/blog/shared/sockets/unicorn.sock>}] (in /home/ubuntu/blog)
+I, [2015-12-21T02:45:10.233960 #1386]  INFO -- : forked child re-executing...
+I, [2015-12-21T02:45:10.488237 #1386]  INFO -- : inherited addr=/home/ubuntu/blog/shared/sockets/unicorn.sock fd=11
+I, [2015-12-21T02:45:10.488457 #1386]  INFO -- : Refreshing Gem list
+I, [2015-12-21T02:45:12.157330 #1386]  INFO -- : worker=0 spawning...
+I, [2015-12-21T02:45:12.158356 #1386]  INFO -- : worker=1 spawning...
+I, [2015-12-21T02:45:12.158980 #1386]  INFO -- : master process ready
+I, [2015-12-21T02:45:12.159727 #1390]  INFO -- : worker=0 spawned pid=1390
+I, [2015-12-21T02:45:12.159856 #1390]  INFO -- : worker=0 ready
+I, [2015-12-21T02:45:12.160536 #1392]  INFO -- : worker=1 spawned pid=1392
+I, [2015-12-21T02:45:12.160669 #1392]  INFO -- : worker=1 ready
+I, [2015-12-21T02:54:41.436505 #1386]  INFO -- : reaped #<Process::Status: pid 1390 exit 0> worker=0
+I, [2015-12-21T02:54:41.436620 #1386]  INFO -- : reaped #<Process::Status: pid 1392 exit 0> worker=1
+I, [2015-12-21T02:54:41.436709 #1386]  INFO -- : master complete
+E, [2015-12-21T02:54:41.480220 #1120] ERROR -- : reaped #<Process::Status: pid 1386 exit 0> exec()-ed
+I, [2015-12-21T02:55:03.998234 #1120]  INFO -- : reaped #<Process::Status: pid 1250 exit 0> worker=0
+I, [2015-12-21T02:55:03.998345 #1120]  INFO -- : reaped #<Process::Status: pid 1252 exit 0> worker=1
+I, [2015-12-21T02:55:03.998414 #1120]  INFO -- : master complete
+I, [2015-12-21T02:55:48.501031 #1118]  INFO -- : Refreshing Gem list
+I, [2015-12-21T02:55:51.407137 #1118]  INFO -- : unlinking existing socket=/home/ubuntu/blog/shared/sockets/unicorn.sock
+I, [2015-12-21T02:55:51.407332 #1118]  INFO -- : listening on addr=/home/ubuntu/blog/shared/sockets/unicorn.sock fd=11
+I, [2015-12-21T02:55:51.407439 #1118]  INFO -- : worker=0 spawning...
+I, [2015-12-21T02:55:51.408396 #1118]  INFO -- : worker=1 spawning...
+I, [2015-12-21T02:55:51.409036 #1118]  INFO -- : master process ready
+I, [2015-12-21T02:55:51.415970 #1249]  INFO -- : worker=0 spawned pid=1249
+I, [2015-12-21T02:55:51.416121 #1249]  INFO -- : worker=0 ready
+I, [2015-12-21T02:55:51.416795 #1251]  INFO -- : worker=1 spawned pid=1251
+I, [2015-12-21T02:55:51.416907 #1251]  INFO -- : worker=1 ready
