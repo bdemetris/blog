@@ -33,6 +33,9 @@ gem 'rouge'
 # Middleware
 gem 'unicorn'
 
+# Tagging
+gem 'acts-as-taggable-on'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
