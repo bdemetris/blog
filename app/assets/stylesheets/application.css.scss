@@ -145,10 +145,18 @@ a {
 			color: #9eafba;
 			margin: .5em 0 0 0;
 		}
+		.more_link {
+			float: right;
+			text-decoration: none;
+			color: #2a2f35;
+			font-size: 1.0em;
+			&:hover {
+				color: #33acb7;
+			}
+		}
 	}
 	#post_content {
 		padding: 1em 3em;
-		width: 800px;
 		.title {
 			font-weight: 500;
 			text-decoration: none;
