@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <title>BrettDemetris.com</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag 'application', 'https://fonts.googleapis.com/css?family=Oswald' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= favicon_link_tag 'favicon.ico' %>
@@ -26,6 +26,13 @@
 			<li class="category">Social</li>
 			<li><a href="https://github.com/bdemetris">Github</a></li>
 			<li><a href="https://www.linkedin.com/in/bdemetris">Linkedin</a></li>
+		</ul>
+
+		<ul>
+		<div id ="tags">
+			<li class="category">Tags</li>
+			<li><%= render :partial => 'acts_as_taggable_on/tags/popular', :object => popular %></li>
+		</div>
 		</ul>
 
 		<div id="search">
