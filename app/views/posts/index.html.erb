@@ -1,10 +1,14 @@
-<% @posts.each do |post| %>
-	<div class="post_wrapper">
-		<h2 class="title"><%= link_to post.title, post %></h2>
-		<p class="body">
-			<%= markdown(truncate(post.body, length:250, :separator => ' ')) %>
-		</p>
-		<h6 class="more_link"><%= link_to "Read More", post %></h3>
-		<p class="date"><%= post.created_at.strftime("%B, %d, %Y") %>
-	</div>
+<% if @posts.present? %>
+	<% @posts.each do |post| %>
+		<div class="post_wrapper">
+			<h2 class="title"><%= link_to post.title, post %></h2>
+			<p class="body">
+				<%= markdown(truncate(post.body, length:250, :separator => ' ')) %>
+			</p>
+			<h6 class="more_link"><%= link_to "Read More", post %></h3>
+			<p class="date"><%= post.created_at.strftime("%B, %d, %Y") %>
+		</div>
+	<% end %>
+<% else %>
+	<p>Nothing Matched Search Criteria <%= params[:search] %></p>
 <% end %>
