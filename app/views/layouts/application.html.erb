@@ -10,6 +10,13 @@
 </head>
 <body>
 	<div id="sidebar">
+		<div id="search">
+			<%= form_tag(posts_path, :method => "get", id: "search-form") do %>
+			<%= text_field_tag :search, params[:search], placeholder: "Search Posts" %>
+			<%= submit_tag "Search" %>
+			<% end %>
+		</div>
+		
 		<div id="logo">
 			<%= link_to root_path do %>
 				<%= image_tag "logo.svg" %>
