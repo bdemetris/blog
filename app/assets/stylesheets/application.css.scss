@@ -38,18 +38,17 @@ a {
 	background: #f5f7f9;
 	padding: 7em 0 0 0;
 	border-right: 1px solid #d6dce0;
+	#search {
+		text-align: center;
+		margin-bottom: 1em;
+		margin-top: 1em;
+	}
 	#logo img {
 		width: 40px;
 		position: absolute;
 		right: 3em;
 		top: 3em;
 	}
-	#search {
-		text-align: center;
-		margin-bottom: 1em;
-		margin-top: 1em;
-	}
-
 	ul {
 		list-style: none;
 		text-align: right;
