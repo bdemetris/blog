@@ -30,4 +30,5 @@ end
     }
     Redcarpet::Markdown.new(renderer, extensions).render(text).html_safe
   end
+
 end
